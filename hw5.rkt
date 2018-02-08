@@ -128,6 +128,7 @@
                                             (apair (call (var "f") (fst (var "list")))
                                                    (call (var "map") (snd (var "list"))))))))
 
+;;4.b
 (define mupl-mapAddN 
   (mlet "map" mupl-map
        (fun #f "x"
